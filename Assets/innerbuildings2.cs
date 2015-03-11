@@ -23,7 +23,7 @@ public class innerbuildings2 : MonoBehaviour {
 			//cube.transform.position = new Vector3 (0, 0, 0);
 			cube.transform.localPosition = new Vector3 (Random.Range (-0.5f, 0.5f), Random.Range (0f, 1.0f), Random.Range (-0.5f, 0.5f));
 			cube.transform.localScale = new Vector3 (Random.Range (0f, 3.0f), Random.Range (0f, 20.0f), Random.Range (0.0f, 3.0f));
-			cube.AddComponent("BoxCollider");
+			cube.AddComponent<BoxCollider>();
 			cube.transform.parent = cluster.transform;
 			
 		}

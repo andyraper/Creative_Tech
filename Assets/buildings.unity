@@ -105,6 +105,7 @@ Transform:
   m_LocalScale: {x: .100000001, y: .100000001, z: .100000001}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 1
 --- !u!81 &125025230
 AudioListener:
   m_ObjectHideFlags: 0
@@ -176,8 +177,11 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
   m_HDR: 0
   m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: .0219999999
 --- !u!1 &412170388
 GameObject:
   m_ObjectHideFlags: 0
@@ -216,9 +220,8 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
   m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!64 &412170390
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -250,6 +253,7 @@ Transform:
   m_LocalScale: {x: 5, y: 1, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 3
 --- !u!114 &412170393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -264,6 +268,7 @@ MonoBehaviour:
   buildingHeight: 50
   slidervalue: 1
   numberOfBuildings: 50
+  buildingNumber: 20
 --- !u!65 &412170394
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -311,6 +316,7 @@ MonoBehaviour:
   buildingHeight: 50
   slidervalue: 1
   numberOfBuildings: 50
+  buildingNumber: 20
 --- !u!23 &1029264742
 Renderer:
   m_ObjectHideFlags: 0
@@ -329,9 +335,8 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
   m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!64 &1029264743
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -363,6 +368,7 @@ Transform:
   m_LocalScale: {x: 40, y: 1, z: 40}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 6
 --- !u!114 &1029264746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -384,7 +390,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10, y: 10, z: 10}
+  m_Size: {x: 10, y: 100, z: 10}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1167199694
 GameObject:
@@ -420,6 +426,7 @@ MonoBehaviour:
   buildingHeight: 50
   slidervalue: 1
   numberOfBuildings: 50
+  buildingNumber: 20
 --- !u!23 &1167199696
 Renderer:
   m_ObjectHideFlags: 0
@@ -438,9 +445,8 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
   m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!64 &1167199697
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -472,6 +478,7 @@ Transform:
   m_LocalScale: {x: 20, y: 1, z: 20}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 5
 --- !u!114 &1167199700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -531,9 +538,8 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
   m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!64 &1528776480
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -565,6 +571,7 @@ Transform:
   m_LocalScale: {x: 10, y: 1, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 4
 --- !u!1 &1628292251
 GameObject:
   m_ObjectHideFlags: 0
@@ -627,6 +634,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!1 &1833637445
 GameObject:
   m_ObjectHideFlags: 0
@@ -694,8 +702,11 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
   m_HDR: 0
   m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: .0219999999
 --- !u!4 &1833637450
 Transform:
   m_ObjectHideFlags: 0
@@ -707,3 +718,4 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 2
